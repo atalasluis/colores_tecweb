@@ -1,0 +1,82 @@
+
+div{
+    width: 250px;
+    height: 250px;
+    background-color: aqua;
+}
+
+p{
+    color: orange;
+}
+
+.caja{
+    width: 150p;
+    height: 150px;;
+    background-color: rgb(244, 255, 86);
+
+}
+
+.otra_caja{
+
+    width: 150p;
+    height: 150px;;
+    background-color: rgba(0, 0, 255, 0.4);
+}
+
+.una_caja_mas{
+
+    width: 150p;
+    height: 150px;;
+    background-color: #1ecbe1;
+}
+
+.capibara{
+
+    width: 150p;
+    height: 150px;;
+    background-color: hsl(0, 100%, 50%);
+}
+
+*{
+    color: green;
+    font-weight: bolder;
+}
+
+#soy_unico{
+    width: 250px;
+    height: 50px;
+    background-color: aqua;
+}
+
+a[title]{
+    color: red;
+
+}
+
+button:hover{
+    background-color: yellow;
+    color: red;
+}
+
+input:disabled{
+    background-color: black;
+}
+
+p::first-line{
+    color: green;
+}
+
+p::first-letter{
+    color: red;
+    font-size: 45px;
+}
+
+.capibara1, .capibara2, .capibara3{
+    width: 100px;
+    height: 100px;
+    background-color: violet;
+}
+
+.padre p{
+    color: red;
+}
